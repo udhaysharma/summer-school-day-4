@@ -35,6 +35,10 @@ body {
     top: 0;
     height: 100vh; 
 }
+a{
+    text-decoration: none;
+    color: #1e4adc;
+}
 
 .main-content {
     grid-area: main;
@@ -42,6 +46,17 @@ body {
     padding: 20px;
     overflow-y: auto; 
 }
+
+.post-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
 
 .read-more{
 
@@ -61,7 +76,7 @@ h2 {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 @media (max-width: 600px) {
